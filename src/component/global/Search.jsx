@@ -15,7 +15,6 @@ const Search = () => {
           border: "1px solid #e2dfdc",
         }}
       >
-        {/* Left Side: Cart Icon with Count */}
         <div className="flex items-center gap-3">
           <FaShoppingCart className="text-2xl text-darkcoffy cursor-pointer" />
           <p className="text-lg text-darkcoffy">Cart</p>
@@ -24,7 +23,6 @@ const Search = () => {
           </div>
         </div>
 
-        {/* Right Side: Currency Dropdown and Search Bar */}
         <div className="flex flex-col md:flex-row items-center gap-4 w-full">
           {/* Currency Dropdown */}
           <div className="flex items-center gap-2">
